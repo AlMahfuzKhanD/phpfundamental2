@@ -28,8 +28,23 @@
 		 
 			 */
 
-		
+		$number1 = 10;
+		$number2 = 20;
+		$number3 = $number1 + $number2;
+		 echo "<h1>$number3</h1>";
+		 $str = 'Mahfuz';
+		 echo $str;
 
+
+		 // arrays
+$numberList = array(2,3,5,8,66,4,5,);
+echo $numberList[2];
+print_r($numberList);
+ echo "<br>";
+//associative array
+$names = array("First_name" => 'Edqin');
+
+print_r($names);
 
 		?>
 
