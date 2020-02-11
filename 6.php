@@ -11,19 +11,28 @@
 		</aside><!--SIDEBAR-->
 
 
-<article class="main-content col-xs-8">
- 
+        <article class="main-content col-xs-8">
 
-	<?php  
-
-/*  Step1: Make a form that submits one value to POST super global
-
-
- */
-
-	
-?>
+            <form action="" method="post">
+                <input type="text" name="name">
+                <input type="submit" name="submit">
+            </form>
 
 
-</article><!--MAIN CONTENT-->
+            <?php
+
+            /*  Step1: Make a form that submits one value to POST super global
+
+
+             */
+            if(isset($_POST['submit'])){
+                $name = $_POST["name"];
+                echo "You entered: $name";
+            }
+
+
+            ?>
+
+
+        </article><!--MAIN CONTENT-->
 <?php include "includes/footer.php"; ?>
