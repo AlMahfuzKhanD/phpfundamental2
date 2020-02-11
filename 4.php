@@ -22,7 +22,20 @@
 
 
  */
+function calculate(){
+    $number1 = 20;
+    $number2 = 30;
+    $sum = $number1 + $number2;
+    return $sum;
+}
 
+$result = calculate();
+echo $result . "<br>";
+
+function sayHello($ola){
+    echo $ola;
+}
+sayHello('is that english:');
 	
 ?>
 
