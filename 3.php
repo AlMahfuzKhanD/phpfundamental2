@@ -43,9 +43,7 @@ switch ($num){
     case 35:
         echo "it is 35";
         break;
-    case 36:
-        echo "it is 35";
-        break;
+
     case 36:
         echo "it is 36";
         break;
@@ -53,11 +51,18 @@ switch ($num){
         echo "it is 37";
         break;
     case 38:
-        echo "it is 38";
+        echo "it is 38 <br>";
         break;
     default:
         echo "nothing matched";
         break;
+}
+
+
+//foreach loops
+$numbers = array(345,346,347,348,258,296);
+foreach ($numbers as $number){
+    echo $number . "<br>";
 }
 ?>
 
