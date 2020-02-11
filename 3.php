@@ -34,8 +34,34 @@ if(3>10){
 $i=0;
 for($i=0;$i<11;$i++ )
     echo $i ."<br>";
-	
+	//switch statements
+$num =38;
+switch ($num){
+    case 34:
+        echo "it is 34";
+        break;
+    case 35:
+        echo "it is 35";
+        break;
+    case 36:
+        echo "it is 35";
+        break;
+    case 36:
+        echo "it is 36";
+        break;
+    case 37:
+        echo "it is 37";
+        break;
+    case 38:
+        echo "it is 38";
+        break;
+    default:
+        echo "nothing matched";
+        break;
+}
 ?>
+
+
 
 
 
