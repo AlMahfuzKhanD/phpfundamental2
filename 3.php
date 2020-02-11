@@ -24,7 +24,16 @@
 	Step 3 : Make a switch Statement that test againts one condition with 5 cases
 
  */
-
+if(3>10){
+    echo "three is greater than ten";
+}else if(10<3){
+    echo "10 is less than three";
+}else{
+    echo "I love php";
+}
+$i=0;
+for($i=0;$i<11;$i++ )
+    echo $i ."<br>";
 	
 ?>
 
